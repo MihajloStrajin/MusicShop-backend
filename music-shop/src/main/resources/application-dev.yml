@@ -1,0 +1,12 @@
+server:
+  port: 6000
+
+spring:
+  jackson.default-property-inclusion: NON_NULL
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    url: jdbc:postgresql://localhost:5432/MusicShop
+    username: postgres
+    password: postgres
